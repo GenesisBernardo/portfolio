@@ -1,0 +1,169 @@
+.header {
+	z-index: 1;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background: linear-gradient(#000002,#000033 ,#2b1055);
+}
+
+.header-p1 {
+    color: #663399;
+    font-size: 4vh;
+}
+
+.header-h1 {
+    font-size: 4vh;
+}
+
+.header-p2 {
+    font-size: 4vh;
+}
+
+
+.row {
+    display: flex;
+    margin-top: 30px;
+}
+
+.column-header {
+    flex: 80%;
+    margin-top: 90px;
+}
+
+.column-image {
+    flex: 20%;
+    object-fit: cover;
+    margin-top: 60px;
+}
+
+.header-section {
+    z-index: 1;
+}
+
+.cont-moon {
+    z-index: 1;
+}
+
+.moon {
+    height: 65vh;
+    max-width: 100vw;
+}
+
+
+.background img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.tree {
+    z-index: 1;
+}
+
+
+/* MEDIA QUERY MIN */
+@media (min-width: 576px) {	
+	.container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+	.container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+	.container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+	.container {
+        max-width: 1140px;
+    }
+}
+
+
+
+
+
+
+/* MEDIA QUERY MAX */
+@media (max-width: 1199px) {
+    .header-h1 {
+        font-size: 3vh;
+    }
+
+    .header-p1 {
+        font-size: 3vh;
+    }
+
+    .header-p2 {
+        font-size: 3vh;
+    }
+
+    .moon {
+        height: 50vh;
+    }
+
+}
+
+
+@media (max-width: 992px) {
+    
+
+}
+
+@media (max-width: 767px) {
+
+    .header-h1 {
+        font-size: 2vh;
+    }
+
+    .header-p1 {
+        font-size: 2vh;
+    }
+
+    .header-p2 {
+        font-size: 2vh;
+    }
+
+    .moon {
+        height: 40vh;
+    }
+
+    
+
+    
+}
+
+@media (max-width: 575px) {
+    .row {
+        display: block;
+    }
+
+    
+
+    .cont-moon {
+        top: 20px;
+    }
+
+    .column-header {
+        margin-top: 0;
+        position: absolute;
+        bottom: 30%;
+    }
+
+    .column-image {
+        position: absolute;
+        left: 15%;
+    }
+
+    
+}

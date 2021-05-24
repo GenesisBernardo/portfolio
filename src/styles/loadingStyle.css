@@ -1,0 +1,57 @@
+/* svg animation */
+.icon {
+	width: 200px;
+    position: absolute; 
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.icon path {
+	fill: transparent;
+	stroke: 10;
+	stroke: #663399;
+    stroke-width: 10;
+}
+
+.icon.hexa path {
+	stroke-dasharray: 1600;
+	stroke-dashoffset: 1600;
+    animation: animate-hexa 1.5s linear forwards;
+}
+
+
+
+@keyframes animate-hexa { 
+	to {
+        stroke-dashoffset: 0;
+    }
+}
+
+.letter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 100px;
+    animation: fadeIn 2.2s;
+}
+
+@keyframes fadeIn {
+    0% {
+		opacity: 0;
+	}
+
+	40% {
+		opacity: 0;
+	}
+
+	80% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
