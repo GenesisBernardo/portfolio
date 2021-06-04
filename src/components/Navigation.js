@@ -61,7 +61,9 @@ const Navigation = () => {
                         <animated.li style={liii}>
                             <Link to="project" smooth={true} duration={1000} onClick={handleClickk}>Project</Link>
                         </animated.li>
-                        <animated.li style={liiii}>Contact</animated.li>
+                        <animated.li style={liiii}>
+                            <Link to="contact" smooth={true} duration={1000} onClick={handleClickk}>Contact</Link>
+                        </animated.li>
         </ul>
     </nav>
     );

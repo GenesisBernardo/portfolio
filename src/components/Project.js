@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import '../styles/aboutStyle.css';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import '../styles/projectStyle.css';
@@ -12,14 +11,14 @@ const Project = () => {
 
     
     return (
-        <div data-aos="zoom-in" className="project">
+        <div className="project">
             <div className="container">
                 <div className="project-h1">
                     <h1>Project</h1>
                     <span className="first-span"></span>
                     <span className="second-span"></span>
                 </div>
-                <div className="grid-wrapper">
+                <div data-aos="zoom-in" className="grid-wrapper">
                     <div className="grid-content">
                     <div className="project-paragraph">
                         <p>Featured Project</p>
@@ -73,7 +72,7 @@ const Project = () => {
                         </a>
                     </div>
                 </div>
-                <div className="grid-wrapper">
+                <div data-aos="zoom-in" className="grid-wrapper">
                     <div className="grid-content">
                     <div className="project-paragraph">
                         <p>Featured Project</p>

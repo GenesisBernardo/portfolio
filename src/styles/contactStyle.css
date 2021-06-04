@@ -1,0 +1,82 @@
+.contact {
+    margin: 0px auto;
+    padding: 100px 0px;
+    color: #ffffff;
+}
+
+.contact-h1 {
+    font-size: 4vh;
+}
+
+.first-span {
+    display: block;
+    width: 80px;
+    height: 4px;
+    border-radius: 5px;
+    background: #2b1055;
+    margin-bottom: 10px;
+}
+
+.second-span {
+    display: block;
+    width: 80px;
+    height: 4px;
+    border-radius: 5px;
+    background: #2b1055;
+    margin-left: 50px;
+}
+
+.contact-form {
+    width: 515px;
+    overflow: hidden;
+    margin: 50px auto auto;
+    text-align: left;
+}
+
+.input {
+    width: 100%;
+    margin: auto auto 25px;
+}
+
+label {
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    font-size: 12px;
+}
+
+input, textarea {
+    border: 0;
+    outline: 0;
+    background: #ffffff;
+    padding: 14px 16px;
+    border-radius: 3px;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+textarea {
+    height: 150px;
+}
+
+button {
+    border: 0;
+    outline: 0;
+    background: #2b1055;
+    color: #ffffff;
+    padding: 14px 16px;
+    width: 100%;
+    border-radius: 3px;
+    margin: auto;
+    box-sizing: border-box;
+    transition: background .35s ease-in-out,color .35s ease-in-out;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #000033;
+}

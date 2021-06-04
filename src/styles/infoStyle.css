@@ -1,0 +1,89 @@
+.info-left {
+    width: 40px;
+    position: fixed;
+    bottom: 0px;
+    left: 20px;
+    right: auto;
+    z-index: 10;
+}
+
+.info-svg {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.info-svg li a {
+    padding: 10px;
+}
+
+a[target="_blank"] {
+    cursor: pointer;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+}
+
+.info-svg li a svg {
+    width: 20px;
+    height: 20px;
+}
+
+svg.feather {
+    fill: none;
+}
+
+.info-svg::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin: 0px auto;
+    background-color: #ffffff;
+}
+
+/*right */
+
+.info-right {
+    width: 30px;
+    position: fixed;
+    bottom: 0px;
+    left: auto;
+    right: 20px;
+    z-index: 10;
+    color: #ffffff;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.email a {
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    -webkit-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+}
+
+.info-right:after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin: 0px auto;
+    background-color: #ffffff;
+}
