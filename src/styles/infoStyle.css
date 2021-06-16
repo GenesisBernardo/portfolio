@@ -87,3 +87,42 @@ svg.feather {
     margin: 0px auto;
     background-color: #ffffff;
 }
+
+
+/* MEDIA QUERY MIN */
+@media (min-width: 576px) {	
+	
+}
+
+@media (min-width: 768px) {
+	
+}
+
+@media (min-width: 992px) {
+	
+}
+
+@media (min-width: 1200px) {
+	
+}
+
+
+/* MEDIA QUERY MAX */
+@media (max-width: 1199px) {
+    
+}
+
+
+@media (max-width: 992px) {
+	
+}
+
+@media (max-width: 767px) {
+	.info-left, .info-right {
+        display: none;
+    }
+}   
+
+@media (max-width: 575px) {
+
+}

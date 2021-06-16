@@ -4,6 +4,7 @@ import About from './About';
 import Project from './Project';
 import Info from './Info';
 import Contact from './Contact';
+import Footer from './Footer';
 import "../styles/indexStyle.css";
 
 
@@ -16,6 +17,7 @@ const Index = () => {
             <About />
             <Project />
             <Contact />
+            <Footer />
         </div>
     );
 };
