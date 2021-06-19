@@ -8,32 +8,31 @@
 
 .header-p1 {
     color: #663399;
-    font-size: 4vh;
+    font-size: 1.5rem;
 }
 
 .header-h1 {
-    font-size: 4vh;
+    font-size: 1.5rem;
 }
 
 .header-p2 {
-    font-size: 4vh;
+    font-size: 1.5rem;
 }
 
 
 .row {
     display: flex;
-    margin-top: 30px;
+    align-items: center;
+    min-height: 90vh;
 }
 
 .column-header {
     flex: 80%;
-    margin-top: 90px;
 }
 
 .column-image {
     flex: 20%;
     object-fit: cover;
-    margin-top: 60px;
 }
 
 .header-section {
@@ -45,8 +44,8 @@
 }
 
 .moon {
-    height: 65vh;
-    max-width: 100vw;
+    height: 500px;
+    width: 500px;
 }
 
 
@@ -89,6 +88,25 @@
     }
 }
 
+@media (min-width: 1440px) {
+    .header-p1 {
+        font-size: 2rem;
+    }
+    
+    .header-h1 {
+        font-size: 2rem;
+    }
+    
+    .header-p2 {
+        font-size: 2rem;
+    }
+
+    .moon {
+        height: 530px;
+        width: 530px;
+    }
+}
+
 
 
 
@@ -96,59 +114,69 @@
 
 /* MEDIA QUERY MAX */
 @media (max-width: 1199px) {
-    .header-h1 {
-        font-size: 3vh;
-    }
-
     .header-p1 {
-        font-size: 3vh;
+        font-size: 1.5rem;
     }
-
+    
+    .header-h1 {
+        font-size: 1.5rem;
+    }
+    
     .header-p2 {
-        font-size: 3vh;
+        font-size: 1.5rem;
     }
 
     .moon {
-        height: 50vh;
+        height: 450px;
+        width: 450px;
     }
-
 }
 
 
 @media (max-width: 992px) {
+    .header-p1 {
+        font-size: 1rem;
+    }
     
+    .header-h1 {
+        font-size: 1rem;
+    }
+    
+    .header-p2 {
+        font-size: 1rem;
+    }
+
+    .moon {
+        height: 300px;
+        width: 300px;
+    }
 
 }
 
 @media (max-width: 767px) {
-
-    .header-h1 {
-        font-size: 2vh;
-    }
-
     .header-p1 {
-        font-size: 2vh;
+        font-size: .8rem;
     }
-
+    
+    .header-h1 {
+        font-size: .8rem;
+    }
+    
     .header-p2 {
-        font-size: 2vh;
+        font-size: .8rem;
     }
 
     .moon {
-        height: 40vh;
+        height: 250px;
+        width: 250px;
     }
 
-    
-
-    
 }
 
 @media (max-width: 575px) {
-    .row {
+    /*.row {
         display: block;
     }
-
-    
 
     .cont-moon {
         top: 20px;
@@ -164,6 +192,25 @@
         position: absolute;
         left: 15%;
     }
+  */
+  .row {
+    flex-direction: column-reverse;
+    min-height: 50vh;
+    margin-top: 10%;
+}
 
+.column-image {
+    flex: 80%;
+    object-fit: cover;
+}
+
+.column-header {
+    flex: 20%;
+}
+
+.moon {
+    height: 250px;
+    width: 250px;
+}
     
 }

@@ -5,7 +5,7 @@
 }
 
 .project-h1 {
-    font-size: 4vh;
+    font-size: 2rem;
 }
 
 .first-span {
@@ -35,6 +35,9 @@
     gap: 10px;
 }
 
+.project-title {
+    font-size: 1rem;
+}
 
 .grid-wrapper:nth-of-type(2n+1) .grid-content {
     grid-column: 5 / -1;
@@ -171,7 +174,9 @@ svg.feather {
 
 /* MEDIA QUERY MAX */
 @media (max-width: 1199px) {
-
+    .project-h1 {
+        font-size: 1.5rem;
+    }
 }
 
 @media (max-width: 992px) {
@@ -179,6 +184,14 @@ svg.feather {
 }
 
 @media (max-width: 767px) { 
+    .project-h1 {
+        font-size: 1.2rem;
+    }
+
+    .project-paragraph{
+        font-weight: 700;
+    }
+
     .grid-wrapper:nth-of-type(2n+1) .grid-content {
         grid-column: 1 / -1;
         text-align: left;

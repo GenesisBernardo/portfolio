@@ -1,3 +1,7 @@
+html {
+    font-size: 16px;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -9,6 +13,7 @@
 p, h1, h2, h3, h4, h5 {
     line-height: 1.1;
 }
+
 
 /* Global 
 .container {
@@ -35,4 +40,56 @@ body {
     color: #ffffff;
     font-size: 20px;
     min-height: 100vh;
+}
+
+
+
+
+/* MEDIA QUERY MIN */
+@media (min-width: 576px) {	
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1440px) {
+
+}
+
+
+
+
+
+
+/* MEDIA QUERY MAX */
+@media (max-width: 1199px) {
+    .container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 575px) {
+    
 }

@@ -23,7 +23,7 @@ const Header = () => {
     const paragraphhhh = useSpring({opacity: 1, delay: 2300, from: {opacity: 0}})
     const star = useSpring({opacity: 1, delay: 1000, from: {opacity: 0}})
     const trees = useSpring({opacity: 1, delay: 1100, from: {opacity: 0}})
-    const moon = useSpring({marginTop: 40, delay: 1200, from: {marginTop: -1000}})
+    const moon = useSpring({marginTop: 0, delay: 2400, from: {marginTop: -1000}})
 
     return (
         <div className="header">

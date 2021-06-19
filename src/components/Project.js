@@ -38,7 +38,7 @@ const Project = () => {
                             </p>
                         </div>
                         <div className="project-links">
-                            <a href="https://github.com/bchiang7/octoprofile" aria-label="GitHub Link" 
+                            <a href="https://intellipetph.com/" aria-label="GitHub Link" 
                                 rel="noopener noreferrer" target="_blank">
                                 <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" 
                                     fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" 
@@ -53,7 +53,7 @@ const Project = () => {
                                     </path>
                                 </svg>
                             </a>
-                            <a href="https://octoprofile.now.sh" aria-label="External Link" 
+                            <a href="https://intellipetph.com/" aria-label="External Link" 
                                 className="external" rel="noopener noreferrer" target="_blank">
                                 <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" 
                                     fill="none" stroke="currentColor" strokeWidth="2" 
@@ -92,7 +92,7 @@ const Project = () => {
                             </p>
                         </div>
                         <div className="project-links">
-                            <a href="https://github.com/bchiang7/octoprofile" aria-label="GitHub Link" 
+                            <a href="https://intellipetph.com/" aria-label="GitHub Link" 
                                 rel="noopener noreferrer" target="_blank">
                                 <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" 
                                     fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" 
@@ -107,7 +107,7 @@ const Project = () => {
                                     </path>
                                 </svg>
                             </a>
-                            <a href="https://octoprofile.now.sh" aria-label="External Link" 
+                            <a href="https://intellipetph.com/" aria-label="External Link" 
                                 className="external" rel="noopener noreferrer" target="_blank">
                                 <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" 
                                     fill="none" stroke="currentColor" strokeWidth="2" 

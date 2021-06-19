@@ -5,7 +5,7 @@
 }
 
 .about-h1 {
-    font-size: 4vh;
+    font-size: 2rem;
 }
 
 .first-span {
@@ -78,7 +78,7 @@
     width: 60%;
     margin: auto auto auto 25px;
     position: relative;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 1.3;
 }
 
@@ -173,7 +173,9 @@ ul.skill-list li::before {
 
 /* MEDIA QUERY MAX */
 @media (max-width: 1199px) {
-
+    .about-h1 {
+        font-size: 1.5rem;
+    }
 }
 
 
@@ -189,6 +191,10 @@ ul.skill-list li::before {
 }
 
 @media (max-width: 767px) {
+    .about-h1 {
+        font-size: 1.2rem;
+    }
+
     .about-inner {
         flex-direction: column;
         text-align: center;

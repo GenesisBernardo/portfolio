@@ -5,7 +5,7 @@
 }
 
 .contact-h1 {
-    font-size: 4vh;
+    font-size: 2rem;
 }
 
 .first-span {
@@ -116,20 +116,28 @@ button:hover {
 
 /* MEDIA QUERY MAX */
 @media (max-width: 1199px) {
-    
+    .contact-h1 {
+        font-size: 1.5rem;
+    }
 }
 
 
 @media (max-width: 992px) {
-	
+
 }
 
 @media (max-width: 767px) {
+    .contact-h1 {
+        font-size: 1.2rem;
+    }
+
 	.contact-form {
         width: 95%;
     }
 }
 
 @media (max-width: 575px) {
-
+    .contact-h1 {
+        font-size: 1rem;
+    }
 }
