@@ -1,5 +1,5 @@
-nav {
-    padding: 20px;
+.nav {
+    padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     color: #fff;
@@ -7,9 +7,18 @@ nav {
     z-index: 99;
     position: fixed;
     width: 100%;
+    background-color: transparent;
 }
 
-nav ul {
+.active {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.activee {
+    color: #663399;
+}
+
+.nav ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -19,7 +28,6 @@ nav ul {
 .menu-icon {
     display: none;
     z-index: 100;
-    
 }
 
 .fas {
@@ -29,25 +37,37 @@ nav ul {
 .menu-icon .fa-times {
     transform: rotate(360deg);
     transition: all 0.2s ease-in-out;
+    font-size: 1.8rem;
+    margin-top: 50%;
 }
 
 .menu-icon .fa-bars {
     transform: rotate(180deg);
     transition: all 0.2s ease-in-out;
+    font-size: 1.8rem;
+    margin-top: 50%;
 }
 
 .logo img:hover {
     cursor: pointer;
 }
 
-nav ul li {
+.nav ul li {
     padding: 5px 10px;
     margin-left: 20px;
 }
 
-nav ul li:hover {
+.nav ul li:hover {
     color: #663399;
     cursor: pointer;
+}
+
+.is-current {
+    color: #663399;   
+}
+
+.scrollspy {
+    background-color: transparent;
 }
 
 
@@ -86,10 +106,9 @@ nav ul li:hover {
 
    
 
-    nav ul {
-        background-color: rgba(0, 0, 0, 0.7);
+    .nav ul {
+        background-color: #000000;
         flex-direction: column;
-        width: 50%;
         position: absolute;
         padding: 20px;
         right: 0;
@@ -97,29 +116,32 @@ nav ul li:hover {
         transition: all 0.5s ease-in-out;
         min-height: 100vh;
         justify-content: flex-start;
-        margin-right: auto;
-        
     }
 
-    nav ul li {
+    .nav ul li {
         margin-bottom: 20px;
         margin-top: 20px!important;
         width: 100%;
         text-align: center;
+        margin-right: 50%;
     }
 
-    nav ul li:last-child {
+    .nav ul li:first-child {
+        padding-top: 60px;
+    }
+
+    .nav ul li:last-child {
         margin-bottom: 0;
     }
 
-    nav .close {
+    .nav .close {
         right: -100%;
         transition: all 0.5s ease-in-out;
     }
 }
 
 @media (max-width: 575px) {
-    nav ul {
-        width: 80%;
+    .nav ul {
+        width: 70%;
     }
 }

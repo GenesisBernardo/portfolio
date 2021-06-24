@@ -24,7 +24,7 @@ const Footer = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.instagram.com/bilog_g/" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
                             <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" 
                                 strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-instagram">
                                 <title>Instagram</title>
@@ -35,18 +35,20 @@ const Footer = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="" aria-label="Twitter" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.facebook.com/genesis.bernardo.31" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
                             <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" 
-                                strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-twitter">
-                                <title>Twitter</title>
-                                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 
-                                11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+                                strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-facebook">
+                                <title>Facebook</title>
+                                <path d="M8.258,4.458c0-0.144,0.02-0.455,0.06-0.931c0.043-0.477,0.223-0.976,0.546-1.5c0.32-0.522,0.839-0.991,1.561-1.406
+                                C11.144,0.208,12.183,0,13.539,0h3.82v4.163h-2.797c-0.277,0-0.535,0.104-0.768,0.309c-0.231,0.205-0.35,0.4-0.35,0.581v2.59h3.914
+                                c-0.041,0.507-0.086,1-0.138,1.476l-0.155,1.258c-0.062,0.425-0.125,0.819-0.187,1.182h-3.462v11.542H8.258V11.558H5.742V7.643
+                                h2.516V4.458z">
                                 </path>
                             </svg>
                         </a>
                     </li>
                     <li>
-                        <a href="" aria-label="Linkedin" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/in/genesis-bernardo-296295214/" aria-label="Linkedin" target="_blank" rel="noopener noreferrer">
                             <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" 
                                 strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-linkedin">
                                 <title>LinkedIn</title>
@@ -57,7 +59,7 @@ const Footer = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="" aria-label="Codepen" target="_blank" rel="noopener noreferrer">
+                        <a href="https://codepen.io/Bilog312" aria-label="Codepen" target="_blank" rel="noopener noreferrer">
                             <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" 
                                 strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-codepen">
                                 <title>CodePen</title>

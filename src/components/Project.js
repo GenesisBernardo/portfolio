@@ -11,7 +11,7 @@ const Project = () => {
 
     
     return (
-        <div className="project">
+        <div className="project" id="project">
             <div className="container">
                 <div className="project-h1">
                     <h1>Project</h1>
@@ -72,7 +72,7 @@ const Project = () => {
                         </a>
                     </div>
                 </div>
-                <div data-aos="zoom-in" className="grid-wrapper">
+                {/*<div data-aos="zoom-in" className="grid-wrapper">
                     <div className="grid-content">
                     <div className="project-paragraph">
                         <p>Featured Project</p>
@@ -124,8 +124,8 @@ const Project = () => {
                         <a href="https://Intellipetph.com" rel="noopener noreferrer" target="_blank">
                             <img src={Intellipet} alt="intellipet-website"/>
                         </a>
-                    </div>
-                </div>
+                    </div> 
+    </div> */}
             </div>
         </div>
     );
