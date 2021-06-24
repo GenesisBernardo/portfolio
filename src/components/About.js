@@ -35,7 +35,7 @@ const About = () => {
                             the back office admin of their website, I got curious on how they built a website
                             like that so I decided to study web development and dream to make one someday.
                     <div className="line-break"></div>
-                            Later on when I already had knowledge in web development I got promoted to a web administrator in that same company 
+                            Later on when I already had knowledge in web development I got promoted to a web administrator on that same company 
                             and I am now the one who maintains and updates the website.
                             After that I started freelancing and continuing to learn new technology for web development.
                             Over the past years, coding has become a passion of mine specifically in the realm of web development. 
