@@ -38,7 +38,7 @@ const Project = () => {
                             </p>
                         </div>
                         <div className="project-links">
-                            <a href="https://intellipetph.com/" aria-label="GitHub Link" 
+                            <a href="https://github.com/GenesisBernardo/Intellipet-Custom-Theme" aria-label="GitHub Link" 
                                 rel="noopener noreferrer" target="_blank">
                                 <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" 
                                     fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" 
