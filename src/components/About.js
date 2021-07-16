@@ -29,20 +29,18 @@ const About = () => {
                             </p>
                     </div>
                     <div data-aos="zoom-in" className="about-p">
-                            Hi, my name is Genesis. I've been studying web development for the past years.
-                            My interest in web development started back in 2014 when I got a part time job in
-                            an e-commerce company I've been assigned to edit pictures using photoshop and upload product items on
-                            the back office admin of their website, I got curious on how they built a website
-                            like that so I decided to study web development and dream to make one someday.
+                            Hi, my name is Genesis. I've been studying web development for the past years. 
+                            My interest in web development started back in 2014 when I've got a part time job in an e-commerce company 
+                            I've been assigned to edit pictures using photoshop and upload product items in the back office admin of their website, 
+                            I've got curious in how they built a website so I've decided to study web development and dream of making one someday.
                     <div className="line-break"></div>
-                            Later on when I already had knowledge in web development I got promoted to a web administrator on that same company 
-                            and I am now the one who maintains and updates the website.
-                            After that I started freelancing and continuing to learn new technology for web development.
-                            Over the past years, coding has become a passion of mine specifically in the realm of web development. 
+                            Later on when I already had knowledge in web development I got promoted to a web administrator in that same company and 
+                            I'm now the one who maintains and updates the website. After that I started freelancing and continuing to learn new technology 
+                            for web development. Over the past years, coding has become a passion of mine specifically in the realm of web development. 
                             I've dedicated my time to gaining proficiency in all intricacies of web development in order to better myself as a developer and problem solver. 
-                            I am able to create clean and functional websites.
+                            I'm able to create clean and functional websites.
                     <div className="line-break"></div>
-                            Here are the technologies I learned so far:
+                            Here are the technologies that I learned so far:
                     <ul className="skill-list">
                         <li>Html</li>
                         <li>JavaScript</li>

@@ -28,7 +28,7 @@ const Project = () => {
                     </div>
                         <div className="project-description">
                             <p>
-                               A online catalogue made for the existing and future customers of Intellipetph company, 
+                               An online catalogue made for the existing and future customers of Intellipetph company, 
                                from that website they can view all products of Intellipetph.
                             </p>
                         </div>
